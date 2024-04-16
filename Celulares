@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Celulares Eloi</title>
+  <style>
+    body {
+      font-family: Montserrat, sans-serif;
+      color: #461b02;
+      margin: 0;
+      padding: 0;
+      background-color: #FFA569;
+    }
+
+    h1 {
+      display: none;
+    }
+    h2{
+        background-color: rgba(250, 235, 215, 0.288);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    section {
+        background-color: rgba(250, 235, 215, 0.301);
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    section ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: rgba(255, 255, 255, 0.212);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="capa.jpeg" alt="Logo da Loja" width="auto" height="auto">
+    <h2>Bem-vindo à Loja de Celulares Eloi, onde a sua busca pelo telefone perfeito termina! Com uma ampla seleção de marcas líderes e modelos de última geração, estamos aqui para atender a todas as suas necessidades de comunicação móvel. Explore nossa coleção diversificada e descubra telefones das marcas mais renomadas do mercado, incluindo Samsung, Apple, Xiaomi e muito mais.
+
+        Na Loja de Celulares Eloi, buscamos oferecer a você não apenas um telefone, mas sim uma experiência tecnológica completa. Desde os elegantes e inovadores iPhones da Apple até os poderosos e versáteis dispositivos Galaxy da Samsung, estamos comprometidos em fornecer uma variedade de opções para atender ao seu estilo de vida e preferências individuais.
+        
+        Se você procura por desempenho excepcional, câmeras de alta qualidade, design elegante ou recursos inovadores, temos o telefone perfeito para você. Nossa equipe especializada está pronta para orientá-lo na escolha do dispositivo ideal que atenda às suas necessidades, garantindo que você saia da nossa loja com confiança e satisfação.
+        
+        Além disso, na Loja de Celulares Eloi, não se trata apenas da venda de telefones. Estamos comprometidos em fornecer um serviço excepcional e suporte contínuo aos nossos clientes. Desde a compra até a configuração e além, estamos aqui para ajudar você em cada etapa do caminho, garantindo uma experiência de compra tranquila e satisfatória.
+        
+        Explore nossa seleção de telefones de última geração hoje mesmo e descubra por que a Loja de Celulares Eloi é a escolha preferida para aqueles que buscam qualidade, variedade e serviço excepcional. Estamos ansiosos para recebê-lo em nossa loja e ajudá-lo a encontrar o telefone dos seus sonhos!</h2>
+    <nav>
+      <ul>
+        <li><a href="#samsung">Samsung</a></li>
+        <li><a href="#apple">Apple</a></li>
+        <li><a href="#xiaomi">Xiaomi</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="samsung">
+      <h2>Samsung</h2>
+      <img src="sansung.png" alt="Logo Samsung">
+      <ul>
+        <li>Samsung Galaxy S21</li>
+        <li>Samsung Galaxy Note 20</li>
+        <li>Samsung Galaxy A52</li>
+      </ul>
+      <a href="https://www.samsung.com/br/" target="_blank">Site Oficial Samsung</a>
+      <a href="https://www.samsung.com/br/support/" target="_blank">Suporte Samsung</a>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione tenetur iste, tempore sit voluptatum corporis alias, nisi fugit sint blanditiis consequatur odit delectus, sunt explicabo omnis nihil. Ad, vero deleniti.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi ducimus dignissimos! Labore illum, deleniti, magni error beatae cumque fugit dolorum iusto veritatis impedit vitae doloremque molestiae, facilis nobis quis?</p>
+      <hr>
+    </section>
+    <section id="apple">
+      <h2>Apple</h2>
+      <img src="aple.png" alt="Logo Apple">
+      <ul>
+        <li>iPhone 13</li>
+        <li>iPhone SE</li>
+        <li>iPhone 12 Pro</li>
+      </ul>
+      <a href="https://www.apple.com/br/" target="_blank">Site Oficial Apple</a>
+      <a href="https://support.apple.com/pt-br" target="_blank">Suporte Apple</a>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloremque laboriosam sit reiciendis voluptas explicabo nihil sequi. Ducimus molestiae tempore temporibus vel laudantium commodi consequatur quidem animi ullam. Corporis, dolore?</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat recusandae corrupti, accusamus in reiciendis error fugit quae delectus tenetur aut nihil at repudiandae mollitia maxime ipsa dolorem molestias? Recusandae, aliquam?</p>
+      <hr>
+    </section>
+    <section id="xiaomi">
+      <h2>Xiaomi</h2>
+      <img src="xiaomi.png" alt="Logo Xiaomi">
+      <ul>
+        <li>Xiaomi Mi 11</li>
+        <li>Xiaomi Redmi Note 10</li>
+        <li>Xiaomi Poco X3</li>
+      </ul>
+      <a href="https://www.mi.com/br/" target="_blank">Site Oficial Xiaomi</a>
+      <a href="https://www.mi.com/br/service/" target="_blank">Suporte Xiaomi</a>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, facere magnam? Iusto error porro reiciendis minima praesentium! Nemo dolorum tenetur minima expedita eligendi et quibusdam laboriosam, commodi culpa provident porro?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio dolores autem natus porro ab, ea, rerum corporis sequi quas repellat necessitatibus aspernatur eaque maxime? At aliquid magni expedita quas?</p>
+      <hr>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Loja de Celulares Eloi. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
